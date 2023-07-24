@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import NavContext from "../context/navContext";
 import AnimationText from "./AnimationText";
+import Image from "next/image";
 const Home = ({ leftImg, video, leftImgSrc }) => {
   const { nav, changeNav } = useContext(NavContext);
   return (
@@ -8,7 +9,7 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
       {/* Text Rotator Starts */}
       <div className="main-text-container">
         {leftImg && (
-          <img
+          <Image
             className="leftimagepicture"
             src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
             alt=""

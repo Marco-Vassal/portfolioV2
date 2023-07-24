@@ -1,4 +1,5 @@
 import { Fragment, useContext, useState } from "react";
+import Image from "next/image";
 import NavContext from "../context/navContext";
 import {
   ImgSideBar,
@@ -103,7 +104,7 @@ const Work = () => {
                         data-type="project-1"
                         onClick={() => setActive(i + 1)}
                       >
-                        <img
+                        <Image
                           src={work.img}
                           alt="Project"
                           className="img-fluid"
