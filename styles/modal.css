@@ -2211,6 +2211,9 @@
   .modal__container .istambul_tm_modalbox .box_inner {
     width: 300px;
   }
+  .btn-call-free-service{
+    display: none;
+  }
   /* .modal__container .istambul_tm_modalbox .close a {
     width: 20px;
     height: 20px;

@@ -102,7 +102,7 @@ const About = () => {
               <a href="https://calendly.com/marco-vassal/30min" target="_blank" rel="noreferrer" className="btn btn-call">
                 <span>
                   <i className="fa fa-phone" />
-                  Réserver un appel 100% gratuit
+                  Réserver un appel <span className='btn-call-free'>100% gratuit</span>
                 </span>
               </a>
             </div>

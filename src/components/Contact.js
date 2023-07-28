@@ -80,21 +80,20 @@ const Contact = () => {
                     <br />
                   </h6>
                 </li>
-                <li>
-                <div className="col-12 call-btn-container">
-                <a href="https://calendly.com/marco-vassal/30min" target="_blank" rel="noreferrer" className="btn btn-call">
-                  <span>
-                    <i className="fa fa-phone text-white" />
-                    Réserver un appel 100% gratuit
-                  </span>
-                </a>
-              </div>
-                </li>
               </ul>
             </div>
             {/* Contact Infos Ends */}
             {/* Contact Form Starts */}
             <div className="col-12 col-md-8 col-xl-8 rightside">
+            <div className="col-12 call-btn-container">
+                    <a href="https://calendly.com/marco-vassal/30min" target="_blank" rel="noreferrer" className="btn btn-call">
+                      <span>
+                        <i className="fa fa-phone text-white" />
+                        Réserver un appel <span className='btn-call-free'>100% gratuit</span>
+                      </span>
+                    </a>
+                  </div>
+                
               <p>
                 Si vous avez des suggestions, des projets ou même si vous voulez simplement échanger, veuillez remplir le formulaire ci-dessous et je vous répondrai rapidement.
               </p>
@@ -161,7 +160,7 @@ const Contact = () => {
                     </span>
                   </button>
                 </div>
-
+        
                 {/* Submit Form Button Ends */}
                 <div className="form-message">
                   <div

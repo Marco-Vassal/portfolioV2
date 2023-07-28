@@ -2472,6 +2472,7 @@ ul.social-intro li a:hover i {
 	.row.personal-info > div:nth-child(3)	{
 		flex: 0 0 100%;
 		max-width: 100%;
+    margin: auto;
 	}
 	.row.personal-info > div:nth-child(2) {
 		text-align:right;
@@ -2912,7 +2913,7 @@ ul.social-intro li a:hover i {
   }
 
   .personal-info a.btn {
-    margin: 15px 0 35px;
+    margin: 15px 0 0px;
 	
   }
   
@@ -3015,5 +3016,8 @@ ul.social-intro li a:hover i {
 
   .page-title .title-head-subtitle {
     font-size: 14px;
+  }
+  .btn-call-free {
+    display: none;
   }
 }
