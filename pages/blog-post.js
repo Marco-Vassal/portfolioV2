@@ -1,5 +1,4 @@
 import Layouts from "../src/layouts/Layouts";
-import Image from "next/image";
 const BlogPost = () => {
   return (
     <Layouts extraPage bodyCls={"dark blog"}>
@@ -113,7 +112,7 @@ const BlogPost = () => {
                     <li>
                       {/* Comment Starts */}
                       <div className="comment">
-                        <Image
+                        <img
                           className="comment-avatar pull-left"
                           alt=""
                           src="img/blog/user1.jpg"
@@ -149,7 +148,7 @@ const BlogPost = () => {
                         <li>
                           {/* Comment Starts */}
                           <div className="comment">
-                            <Image
+                            <img
                               className="comment-avatar pull-left"
                               alt=""
                               src="img/blog/user2.jpg"
@@ -186,7 +185,7 @@ const BlogPost = () => {
                       </ul>
                       {/* Comment Starts */}
                       <div className="comment last">
-                        <Image
+                        <img
                           className="comment-avatar pull-left"
                           alt=""
                           src="img/blog/user3.jpg"

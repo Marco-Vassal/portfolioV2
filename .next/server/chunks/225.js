@@ -127,7 +127,7 @@ const menus = [
         icon: "fa fa-user",
         dkMenuName: "\xc0 propos",
         name: "\xc0 propos",
-        id: "about"
+        id: "a-propos"
     },
     {
         icon: "fa fa-briefcase",

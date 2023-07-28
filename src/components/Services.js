@@ -1,5 +1,4 @@
 import { Fragment, useContext, useState } from "react";
-import Image from "next/image";
 import NavContext from "../context/navContext";
 import BlogPopup from "./BlogPopup";
 const data = [
@@ -127,7 +126,7 @@ const Blog = () => {
                   {/* Figure Starts */}
                   <figure className="blog-figure">
                     <a href="#" onClick={() => onClick(i)}>
-                      <Image className="img-fluid" src={data.img} alt="" />
+                      <img className="img-fluid" src={data.img} alt="" />
                     </a>
                   </figure>
                   {/* Figure Ends */}

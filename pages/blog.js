@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Layouts from "../src/layouts/Layouts";
-import Image from "next/image";
 const blog = () => {
   return (
     <Layouts bodyCls={"dark blog"} extraPage>
@@ -24,7 +23,7 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <Image
+                    <img
                       className="responsive-img"
                       src="img/blog/blog-post-1.jpg"
                       alt=""
@@ -80,7 +79,7 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <Image
+                    <img
                       className="responsive-img"
                       src="img/blog/blog-post-2.jpg"
                       alt=""
@@ -136,7 +135,7 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <Image
+                    <img
                       className="responsive-img"
                       src="img/blog/blog-post-3.jpg"
                       alt=""

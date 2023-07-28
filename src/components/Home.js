@@ -1,15 +1,14 @@
 import { useContext } from "react";
 import NavContext from "../context/navContext";
 import AnimationText from "./AnimationText";
-import Image from "next/image";
-const Home = ({ leftImg, video, leftImgSrc }) => {
+const Home = ({ leftImg, leftImgSrc }) => {
   const { nav, changeNav } = useContext(NavContext);
   return (
     <section id="home" className={`${nav === "home" ? "active" : ""}`}>
       {/* Text Rotator Starts */}
       <div className="main-text-container">
         {leftImg && (
-          <Image
+          <img
             className="leftimagepicture"
             src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
             alt=""
@@ -24,8 +23,8 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <div className="call-to-actions-home">
             <div className="text-left">
               <a
-                href="#about"
-                onClick={() => changeNav("about")}
+                href="#a-propos"
+                onClick={() => changeNav("a-propos")}
                 className="btn link-portfolio-one"
               >
                 <span>

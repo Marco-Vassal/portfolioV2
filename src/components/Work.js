@@ -1,5 +1,4 @@
 import { Fragment, useContext, useState } from "react";
-import Image from "next/image";
 import NavContext from "../context/navContext";
 import {
   ImgSideBar,
@@ -77,7 +76,7 @@ const Work = () => {
   const [active, setActive] = useState(null);
   return (
     <Fragment>
-      <section id="portfolio" className={`${nav === "portfolio" ? "active" : ""}`}>
+      <section id="Portfolios" className={`${nav === "portfolio" ? "active" : ""}`}>
         <div
           className={`portfolio-container ${active ? "slide-out overflow-hidden" : ""
             }`}
@@ -104,7 +103,7 @@ const Work = () => {
                         data-type="project-1"
                         onClick={() => setActive(i + 1)}
                       >
-                        <Image
+                        <img
                           src={work.img}
                           alt="Project"
                           className="img-fluid"
