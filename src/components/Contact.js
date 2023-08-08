@@ -67,7 +67,7 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">Tel</span>
                     <i className="fa fa-whatsapp" />
-                    <span className="contact-content">+33 6 44 87 04 70</span>
+                    <span className="contact-content">+33 6 44 87 04 71</span>
                   </h6>
                 </li>
                 <li>
